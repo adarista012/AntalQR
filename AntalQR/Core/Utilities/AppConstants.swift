@@ -12,7 +12,7 @@ enum AppConstants {
     enum URLs {
         static let creator = URL(string: "https://www.linkedin.com/in/antonio-dante-arista-rivas-mobile-developer/")!
         
-        static let privacyPolicy = URL(string: "https://antal.io")!
+        static let privacyPolicy = URL(string: "https://adarista012.github.io/AntalQR/privacy-policy.html")!
         
     }
     
