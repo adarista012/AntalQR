@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct AntalQRApp: App {
+    
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                MainView()
+                
+            }
         }
     }
 }

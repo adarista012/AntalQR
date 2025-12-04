@@ -4,6 +4,29 @@
     "" : {
 
     },
+    "%@" : {
+
+    },
+    "about" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Acerca de"
+          }
+        }
+      }
+    },
+    "antal.io" : {
+
+    },
     "cornerRadius" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -17,6 +40,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bordes redondeados"
+          }
+        }
+      }
+    },
+    "createdBy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Created by"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creado por"
           }
         }
       }
@@ -71,19 +111,53 @@
         }
       }
     },
+    "legalInfo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legal Information"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información Legal"
+          }
+        }
+      }
+    },
     "needsSettingsInstructions" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Go to Settings → Photos → AntalQR"
+            "value" : "Go to Settings → AntalQR → Photos"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ve a Ajustes → Fotos → AntalQR"
+            "value" : "Ve a Ajustes → AntalQR → Fotos  "
+          }
+        }
+      }
+    },
+    "privacyPolicy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Política de Privacidad"
           }
         }
       }
@@ -162,6 +236,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Color de fondo"
+          }
+        }
+      }
+    },
+    "version" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión"
           }
         }
       }
