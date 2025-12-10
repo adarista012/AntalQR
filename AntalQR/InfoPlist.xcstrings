@@ -32,7 +32,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : ""
+            "value" : "Allow the app to save generated QR codes to your photo library."
           }
         },
         "es-419" : {
