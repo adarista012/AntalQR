@@ -19,14 +19,14 @@ struct MainView: View {
                 viewModel: viewModel.inputVM,
                 isKeyboardShowing: $isKeyboardShowing,
                 onInputSubmitted: viewModel.handleSubmitInput()
-            ).transition(.opacity)
+            )
             
         } else {
             QREditorScreen(
                 viewModel: viewModel.editorVM,
                 isKeyboardShowing: $isKeyboardShowing,
                 onSaveImage: viewModel.handleOnSaveImage()
-            ).transition(.move(edge: .trailing))
+            )
         }
         
     }
@@ -42,11 +42,14 @@ struct MainView: View {
                 
             }
             
-        }.viewBackground(backgroundColors: viewModel.currentBackgroundColor, submittedText: viewModel.submittedText).onTapGesture {
-            if isKeyboardShowing {
-                isKeyboardShowing = false
+        }.viewBackground(backgroundColors: viewModel.currentBackgroundColor, submittedText: viewModel.submittedText)
+            .animation(.easeInOut, value: viewModel.submittedText)
+            .onTapGesture {
+                if isKeyboardShowing {
+                    isKeyboardShowing = false
+                }
             }
-        }
+            
     }
 }
 

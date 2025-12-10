@@ -107,4 +107,3 @@ struct QREditorScreen: View {
         }.buttonStyle(.glass).frame(maxWidth: .infinity, alignment: .center).disabled(viewModel.isSaving)
     }
 }
-
