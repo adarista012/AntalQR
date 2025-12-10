@@ -9,7 +9,7 @@ import SwiftUI
 struct AboutScreen: View {
     @State private var selectedURL: SafariLinkData? = nil
     
-    private let appVersion: String = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "3.0"
+    private let appVersion: String = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0.0"
     
     var body: some View {
         List{
