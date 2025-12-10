@@ -27,6 +27,16 @@
     "antal.io" : {
 
     },
+    "AntalQR is a fully Open Source project created to offer a powerful QR generation utility without sacrificing user privacy." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AntalQR es un proyecto completamente de Código Abierto, creado para ofrecer una potente utilidad de generación de QR sin sacrificar la privacidad del usuario"
+          }
+        }
+      }
+    },
     "cornerRadius" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -141,6 +151,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ve a Ajustes → AntalQR → Fotos  "
+          }
+        }
+      }
+    },
+    "privacyMissionStatement" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AntalQR is a fully Open Source project created to offer a powerful QR generation utility without sacrificing user privacy"
           }
         }
       }
