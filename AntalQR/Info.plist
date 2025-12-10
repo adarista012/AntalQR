@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string></string>
+	<string>Allow the app to save generated QR codes to your photo library.</string>
 </dict>
 </plist>
