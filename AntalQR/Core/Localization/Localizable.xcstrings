@@ -28,6 +28,7 @@
 
     },
     "AntalQR is a fully Open Source project created to offer a powerful QR generation utility without sacrificing user privacy." : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
