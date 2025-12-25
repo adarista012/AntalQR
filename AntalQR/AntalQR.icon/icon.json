@@ -1,31 +1,58 @@
 {
-  "fill" : {
-    "linear-gradient" : [
-      "display-p3:0.72097,0.70329,0.91219,1.00000",
-      "display-p3:0.86548,0.91312,0.95215,1.00000"
-    ],
-    "orientation" : {
-      "start" : {
-        "x" : 0.5,
-        "y" : 0
-      },
-      "stop" : {
-        "x" : 0.5,
-        "y" : 0.7
+  "fill-specializations" : [
+    {
+      "value" : {
+        "linear-gradient" : [
+          "display-p3:0.72097,0.70329,0.91219,1.00000",
+          "display-p3:0.80452,0.78967,0.96514,1.00000"
+        ],
+        "orientation" : {
+          "start" : {
+            "x" : 0.5,
+            "y" : 0
+          },
+          "stop" : {
+            "x" : 0.5,
+            "y" : 0.7
+          }
+        }
+      }
+    },
+    {
+      "appearance" : "dark",
+      "value" : {
+        "linear-gradient" : [
+          "extended-gray:0.25000,1.00000",
+          "extended-gray:0.00000,1.00000"
+        ],
+        "orientation" : {
+          "start" : {
+            "x" : 0.5,
+            "y" : 0
+          },
+          "stop" : {
+            "x" : 0.5,
+            "y" : 0.7
+          }
+        }
       }
     }
-  },
+  ],
   "groups" : [
     {
       "layers" : [
         {
-          "image-name" : "Component 16-3.png",
-          "name" : "Component 16-3",
+          "fill" : {
+            "solid" : "display-p3:0.92160,0.89384,0.96186,1.00000"
+          },
+          "image-name" : "Component 22.png",
+          "name" : "Component 22",
+          "opacity" : 1,
           "position" : {
             "scale" : 0.64,
             "translation-in-points" : [
-              53.120000000000005,
-              10.000000000000114
+              40.639999999999986,
+              1.3600000000001273
             ]
           }
         }
